@@ -1,0 +1,46 @@
+/* ADD YOUR STYLES HERE */
+
+.DataTable th, .DataTable td {
+	padding: 15px 100px 15px 10px;
+    border-bottom: .5px solid gray;
+}
+
+.DataTable th, .DataTable tr {
+    border-bottom: 2px solid gray;
+}
+
+.DataTable tr:last-child {
+	border-bottom: none;
+}
+/*.tfoot {}*/
+
+
+.Stats tr{
+	/*font-size: 250%;*/
+}
+
+.N {
+	font-size: 250%;
+	font-weight: bold;
+
+}
+.Label {
+	font-size: 50%;
+	color: gray;
+}
+
+.BarChart {
+
+	/*background-color: blue*/
+
+}
+.BarChart {
+	width: 100%;
+}
+
+.BarChart div {
+
+}
+.BarChart td, .BarChart tr{
+	border-bottom: none
+}
