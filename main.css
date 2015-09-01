@@ -63,17 +63,29 @@
 
 
 .Outer{
-	background-color: #585858;
-	padding: 100px;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	height: 100vh;
+	background-color: rgba(89,89,89,0.7);
+	padding-right: 10px;
+	padding-left: 20px;
 
 }
 
 .Lightbox {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 	background-color: white;
-	padding: 45px;
+	padding: 25px;
 	border-radius: 15px;
+	overflow: auto;
 	/*margin: 0 auto;*/
 }
+
 .Button a {
 	color: white;
 	background-color: #ED818A;
