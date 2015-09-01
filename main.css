@@ -14,33 +14,88 @@
 }
 /*.tfoot {}*/
 
+.Stats th {
+	border: 2px
 
-.Stats tr{
-	/*font-size: 250%;*/
 }
 
 .N {
+	padding: 15px;
 	font-size: 250%;
 	font-weight: bold;
+	border-top: 1px solid gray;
+	/*border-bottom: 2px solid gray;*/
 
 }
 .Label {
 	font-size: 50%;
 	color: gray;
+	padding: 15px;
+	border-bottom: 1px solid gray;
 }
 
 .BarChart {
-
-	/*background-color: blue*/
-
-}
-.BarChart {
-	width: 100%;
 }
 
-.BarChart div {
+.Title { 
+	width: 16%;
+	text-align: right;
+	padding: 0 20px 0 0;
+	/*padding: 5px;*/
+}
+.bar-header {
+	width: 100px;
+}
+
+.bar-col {
+	width: 85%;
+	color: #ffffff;
+}
+
+.bar-col div {
+	background-color: #52A3CC;
+	padding: 2.5px 2.5px 2.5px 5px;
+	border-radius: 0 5px 5px 0;
+	padding-right: 10px;
+} 
+
+/*.Container{*/
+
+
+.Outer{
+	background-color: #585858;
+	padding: 100px;
 
 }
-.BarChart td, .BarChart tr{
-	border-bottom: none
+
+.Lightbox {
+	background-color: white;
+	padding: 45px;
+	border-radius: 15px;
+	/*margin: 0 auto;*/
 }
+.Button a {
+	color: white;
+	background-color: #ED818A;
+	width: 100px;
+	text-align: center;
+	float: right;
+	border-radius: 5px;
+	padding: 10px;
+	text-decoration: none;
+	margin: 0 auto;
+}
+
+.mediabox img {
+	/*width: 20px;*/
+	float: left;
+    /*margin: 0 0 10px 10px;*/
+    clear: left;
+    padding: 10px;
+    overflow: auto;
+}
+	
+
+
+
+
